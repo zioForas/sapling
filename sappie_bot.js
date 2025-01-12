@@ -29,6 +29,7 @@ const geminiConfig = {
 
 // Angelic times in UK time (18 sacred times per day)
 const angelicTimes = [
+  { hour: 12, minute: 1 },  // 12:01 AM (Divine completion meets new beginnings)
   { hour: 0, minute: 9 },   // 12:09 AM
   { hour: 1, minute: 11 },  // 1:11 AM
   { hour: 2, minute: 22 },  // 2:22 AM
@@ -45,7 +46,6 @@ const angelicTimes = [
   { hour: 17, minute: 22 }, // 5:22 PM
   { hour: 18, minute: 33 }, // 6:33 PM
   { hour: 19, minute: 44 }, // 7:44 PM
-  { hour: 20, minute: 55 }, // 8:55 PM
   { hour: 22, minute: 10 }, // 10:10 PM
 ];
 
