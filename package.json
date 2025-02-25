@@ -1,17 +1,19 @@
 {
-  "name": "sappie-bot",
+  "name": "sappie-telegram-bot",
   "version": "1.0.0",
-  "description": "A Twitter bot for Sacred Sappie",
-  "main": "sappie_bot.js",
+  "description": "A Telegram bot for Sacred Sappie",
+  "main": "telegram_sappie_bot.js",
   "dependencies": {
     "@google/generative-ai": "^0.21.0",
     "apitable": "^1.0.0",
     "dotenv": "^16.4.5",
-    "inquirer": "^8.2.4",
-    "twitter-api-v2": "^1.15.0"
+    "telegraf": "^4.15.3",
+    "twitter-api-v2": "^1.15.2",
+    "axios": "^1.6.7",
+    "file-type": "^16.5.4"
   },
   "scripts": {
-    "start": "node sappie_bot.js"
+    "start": "node telegram_sappie_bot.js"
   },
   "engines": {
     "node": ">=18.0.0"
